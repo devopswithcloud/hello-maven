@@ -39,7 +39,14 @@ class HelloWorld {
     <groupId>com.sivaacademy.devops</groupId>
     <artifactId>hello-maven</artifactId>
     <version>1.0-SNAPSHOT</version>
+    
+    <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
 </project>
+
+
 ```
 * Execute the maven commands to compile/package/clean
 ```bash
